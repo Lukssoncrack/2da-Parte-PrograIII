@@ -17,10 +17,7 @@ render(){
     return(
          <View style={styles.contendor}>
                     <Text style={styles.titulo}>Register</Text>
-                    <Pressable  style={styles.boton}
-                        onPress={ ()=> this.props.navigation.navigate('Login')}>
-                        <Text style={styles.text} >Ir a Login o Ya tengo cuenta?</Text>
-                    </Pressable>
+                 
                     <TextInput style={styles.field}
                     keyboardType= 'default' 
                     placeholder= 'comentario'
