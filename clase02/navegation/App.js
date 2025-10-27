@@ -8,6 +8,7 @@ import Login from './src/screens/Login';
 import Profile from './src/screens/Profile';
 import Register from './src/screens/Register';
 import HomeMenu from './src/components/HomeMenu';
+import Usuarios from "./src/screens/Usuarios"
 
 
 const Stack = createNativeStackNavigator()
